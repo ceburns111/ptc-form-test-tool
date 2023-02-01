@@ -1,0 +1,12 @@
+<h3>Forms</h3>
+<p>Select form here...</p>
+
+<div class="container">
+        <div *ngFor="let form of genericForms" class="form-group">
+            <table>
+                <tr> {{form.title}} </tr>
+            </table>
+            <a routerLink="/generic-form" routerLinkActive="true">generic form link</a>
+        </div>
+        <pre></pre>
+</div>
